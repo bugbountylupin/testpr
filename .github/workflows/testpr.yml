@@ -1,0 +1,17 @@
+name: TEST
+
+on:
+  pull_request:
+    branches:
+      - "**"
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  CI:
+    steps:
+      - name: Hello World
+         run: |
+          echo "Hello World"
