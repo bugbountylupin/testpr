@@ -13,5 +13,5 @@ jobs:
   CI:
     steps:
       - name: Hello World
-         run: |
+        run: |
           echo "Hello World"
